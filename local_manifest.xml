@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <remote name="ecr34t1v3"
+		fetch="https://github.com/ECr34T1v3" />
+
+	<!-- Galaxy S10 5G (beyondx) -->
+	<project path="device/samsung/beyondx" name="android_device_samsung_beyondx" remote="ecr34t1v3" revision="eleven" />
+	<project path="device/samsung/exynos9820-common" name="android_device_samsung_exynos9820-common" remote="ecr34t1v3" revision="eleven" />
+	<project path="vendor/samsung/beyondx" name="android_vendor_samsung_beyondx" remote="ecr34t1v3" revision="eleven" />
+        <project path="vendor/samsung/exynos9820-common" name="android_vendor_samsung_exynos9820-common" remote="ecr34t1v3" revision="lineage-18.1" />
+	<project path="kernel/samsung/exynos9820" name="android_kernel_samsung_exynos9820" remote="ecr34t1v3" revision="lineage-18.1" />
+
+        <!-- LineageOS Properties -->
+        <project path="hardware/samsung" name="android_hardware_samsung" remote="ecr34t1v3" revision="lineage-18.1" />
+        <project path="hardware/samsung/nfc" name="android_hardware_samsung_nfc" remote="ecr34t1v3" revision="lineage-18.1" />
+        <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="ecr34t1v3" revision="lineage-18.1" />
+
+</manifest>
