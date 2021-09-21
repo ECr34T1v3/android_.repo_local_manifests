@@ -5,11 +5,11 @@
 		fetch="https://github.com/ECr34T1v3" />
 
 	<!-- Galaxy S10 (beyond1lte) -->
-	<project path="device/samsung/beyond1lte" name="android_device_samsung_beyond1lte" remote="ecr34t1v3" revision="eleven" />
-	<project path="device/samsung/exynos9820-common" name="android_device_samsung_exynos9820-common" remote="ecr34t1v3" revision="eleven" />
-	<project path="vendor/samsung/beyond1lte" name="android_vendor_samsung_beyond1lte" remote="ecr34t1v3" revision="eleven" />
-        <project path="vendor/samsung/exynos9820-common" name="android_vendor_samsung_exynos9820-common" remote="ecr34t1v3" revision="lineage-18.1" />
-	<project path="kernel/samsung/exynos9820" name="android_kernel_samsung_exynos9820" remote="ecr34t1v3" revision="lineage-18.1" />
+	<project path="device/samsung/beyond1lte" name="device_samsung_beyond1lte" remote="ecr34t1v3" revision="eleven" />
+	<project path="device/samsung/exynos9820-common" name="device_samsung_exynos9820-common" remote="ecr34t1v3" revision="eleven" />
+	<project path="vendor/samsung/beyond1lte" name="vendor_samsung_beyond1lte" remote="ecr34t1v3" revision="eleven" />
+        <project path="vendor/samsung/exynos9820-common" name="vendor_samsung_exynos9820-common" remote="ecr34t1v3" revision="eleven" />
+	<project path="kernel/samsung/exynos9820" name="kernel_samsung_exynos9820" remote="ecr34t1v3" revision="eleven" />
 
         <!-- LineageOS Properties -->
         <project path="hardware/samsung" name="android_hardware_samsung" remote="ecr34t1v3" revision="lineage-18.1" />
